@@ -58,3 +58,15 @@ if (SuperVilliain === "King-pin") {
 } else if (SuperVilliain === "Dooms-day") {
   $('#GO').show();
 }
+
+if (DragonBall === "Goku") {
+  $('#JavaScript').show();
+} else if (DragonBall === "Vegeta") {
+  $('#Csharp').show();
+} else if (DragonBall === "Frieza") {
+  $('#Python').show();
+} else if (DragonBall === "Gohan") {
+  $('#Ruby').show();
+} else if (DragonBall === "Piccolo") {
+  $('#GO').show();
+}
