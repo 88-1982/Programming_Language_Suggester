@@ -25,16 +25,26 @@ if (Avenger === "Iron-Man") {
 
 if (JusticeLeague === "Super-Man") {
   $('#JavaScript').show();
-} else if (Avenger === "Wonder-Woman") {
+} else if (JusticeLeague === "Wonder-Woman") {
   $('#Csharp').show();
-} else if (Avenger === "The-Flash") {
+} else if (JusticeLeague === "The-Flash") {
   $('#Python').show();
-} else if (Avenger === "Bat-Man") {
+} else if (JusticeLeague === "Bat-Man") {
   $('#Ruby').show();
-} else if (Avenger === "Green-Lantern") {
+} else if (JusticeLeague === "Green-Lantern") {
   $('#GO').show();
 }
   
-
+if (Xmen === "Storm") {
+  $('#JavaScript').show();
+} else if (Xmen === "Rouge") {
+  $('#Csharp').show();
+} else if (Xmen === "Cyclops") {
+  $('#Python').show();
+} else if (Xmen === "Wolverine") {
+  $('#Ruby').show();
+} else if (Xmen === "Phoniex") {
+  $('#GO').show();
+}
   
  
