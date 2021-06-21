@@ -47,4 +47,14 @@ if (Xmen === "Storm") {
   $('#GO').show();
 }
   
- 
+if (SuperVilliain === "King-pin") {
+  $('#JavaScript').show();
+} else if (SuperVilliain === "Venom") {
+  $('#Csharp').show();
+} else if (SuperVilliain === "Red-Skull") {
+  $('#Python').show();
+} else if (SuperVilliain === "Bane") {
+  $('#Ruby').show();
+} else if (SuperVilliain === "Dooms-day") {
+  $('#GO').show();
+}
