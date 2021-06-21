@@ -18,7 +18,7 @@ if (Avenger === "Iron-Man") {
 } else if (Avenger === "Captain-America") {
   $('#Python').show();
 } else if (Avenger === "Black-Panther") {
-  $('#Ruby').show();
+  $('#ruby').show();
 } else if (Avenger === "Black-widow") {
   $('#GO').show();
 }
@@ -42,7 +42,7 @@ if (Xmen === "Storm") {
 } else if (Xmen === "Cyclops") {
   $('#Python').show();
 } else if (Xmen === "Wolverine") {
-  $('#Ruby').show();
+  $('#ruby').show();
 } else if (Xmen === "Phoniex") {
   $('#GO').show();
 }
@@ -54,7 +54,7 @@ if (SuperVilliain === "King-pin") {
 } else if (SuperVilliain === "Red-Skull") {
   $('#Python').show();
 } else if (SuperVilliain === "Bane") {
-  $('#Ruby').show();
+  $('#ruby').show();
 } else if (SuperVilliain === "Dooms-day") {
   $('#GO').show();
 }
@@ -66,7 +66,7 @@ if (DragonBall === "Goku") {
 } else if (DragonBall === "Frieza") {
   $('#Python').show();
 } else if (DragonBall === "Gohan") {
-  $('#Ruby').show();
+  $('#ruby').show();
 } else if (DragonBall === "Piccolo") {
   $('#GO').show();
 }
