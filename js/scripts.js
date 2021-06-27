@@ -1,33 +1,45 @@
 $(document).ready(function(){
     $("form#list").submit(function(event) {
     event.preventDefault(); 
-    const Avenger = parseInt($("input[name=Avenger]:checked").val());
-    const JusticeLeague = $("input[name=Justice-League]:checked").val();
-    const Xmen = $("input[name=Xmen]:checked").val();
-    const SuperVilliain = $("input[name=destination]:checked").val();
-    const DragonBall = $("input[name=Exercise]:checked").val();
-    const result =
+    const Avenger =parseInt($("input[name=Avenger]:checked").val());
+    const JusticeLeague =parseInt($("input[name=Justice-League]:checked").val());
+    const Xmen =parseInt($("input[name=X-Men]:checked").val());
+    const SuperVilliains =parseInt($("input[name=Super-Villiains]:checked").val());
+    const Dragonball =parseInt($("input[name=Dragonball]:checked").val());
+    const result = Avenger + JusticeLeague + Xmen + SuperVilliains + Dragonball;
+    
+    $('#javaScript').hide();
+    $('#csharp').hide();
+    $('#python').hide(); 
+    $('#ruby').hide();
+    $('#go').hide();
+    if ( result < 8) {
+      $('#javaScript').show();
+    } else if ( result < 12) {
+      $('#csharp').show();
+    } else if (result < 15) {
+      $('#python').show();
+    } else if (result < 20) {
+      $('#ruby').show();
+    } else if (result < 26 ) {
+      $('#go').show();
+    }else {
+    
+    }
+    
   });
 }); 
   alert(Avenger+JusticeLeague+Xmen+SuperVilliain+DragonBall);
 
 
 
-  $('#JavaScript').show();
-
-  $('#Csharp').show();
-
-  $('#Python').show();
-
-  $('#ruby').show();
-
-  $('#GO').show();
+  
 
 
 if (JusticeLeague === "Super-Man") {
   $('#JavaScript').show();
 } else if (JusticeLeague === "Wonder-Woman") {
-  $('#Csharp').show();
+  $('#JavaScript').show();;
 } else if (JusticeLeague === "The-Flash") {
   $('#Python').show();
 } else if (JusticeLeague === "Bat-Man") {
